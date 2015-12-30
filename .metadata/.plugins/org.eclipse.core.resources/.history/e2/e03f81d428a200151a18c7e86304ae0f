@@ -1,0 +1,14 @@
+
+public class Practice {
+	public static void main(String args[] ) {
+		int X_SIZE = 5;
+		int Y_SIZE = 5;
+		int[][] matrix = new int[X_SIZE][Y_SIZE];
+		
+		matrix = populate(matrix);
+	}
+	
+	public static int[][] populate(int[][] matrix) {
+		
+	}
+}

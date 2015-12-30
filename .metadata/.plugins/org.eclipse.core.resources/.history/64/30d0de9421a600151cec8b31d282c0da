@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+
+public class NewProject {
+	public static void main(String args[]) {
+		String inputString = "abc";
+		
+		ArrayList<String> allPalindromes = findAllPalindromes(inputString);
+		
+		for(String palindrome: allPalindromes) {
+			System.out.println(palindrome);
+		}
+	}
+	
+	public static ArrayList<String> findAllPalindromes(String inputString) {
+		ArrayList<String> allPalindromes = new ArrayList<String>();
+		
+		
+		
+		
+		
+		
+		
+		
+		return allPalindromes;
+	}
+}

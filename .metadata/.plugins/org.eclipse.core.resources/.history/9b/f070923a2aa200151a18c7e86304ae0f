@@ -1,0 +1,66 @@
+
+public class Practice {
+	public static void main(String args[] ) {
+		int X_SIZE = 5;
+		int Y_SIZE = 5;
+		int[][] matrix = new int[X_SIZE][Y_SIZE];
+		
+		matrix = populate(matrix);
+		
+		print(matrix);
+		System.out.println();
+		System.out.println();
+		
+		spiralPrint(matrix);
+		
+	}
+	
+	public static int[][] populate(int[][] matrix) {
+		int count = 1;
+		for(int i = 0; i< matrix.length; i++) {
+			for(int j = 0; j< matrix[i].length; j++) {
+				matrix[i][j] = count++;
+			}
+		}
+		
+		return matrix;
+	}
+	
+	public static void print(int[][] matrix) {
+		for(int i = 0; i<matrix.length; i++) {
+			for(int j = 0; i< matrix[i].length; j++) {
+				System.out.println(matrix[i][j]);
+			}
+		}
+	}
+	
+	public static void spiralPrint(int[][] matrix) {
+		int numRows = matrix.length-1;
+		int numColumns = matrix[0].length-1;
+		int left = 0;
+		int down = 0;
+		
+		
+		while(down <= numRows && left <= numColumns) {
+			for(int i = left; i<=numColumns; i++) {
+				System.out.print(matrix[down][i] + "\t");
+			}
+			down++;
+			
+			for(int i = down; i<= numRows; i++) {
+				System.out.print(matrix[i][numColumns] + "\t");
+			}
+			numColumns--;
+			
+			for(int i = numColumns; i>= left; i--) {
+				System.out.print(matrix[numRows][i] + "\t");
+			}
+			numRows--;
+			
+			for(int i = numRows; i>=down; i--) {
+				System.out.print(matrix[i][left] + "\t");
+			}
+			left++;
+		}
+	}
+}

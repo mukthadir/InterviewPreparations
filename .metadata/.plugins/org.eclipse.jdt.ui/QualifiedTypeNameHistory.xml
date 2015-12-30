@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="CheckPermutation"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.asu.duck.IndianDuck"/>
+<fullyQualifiedTypeName name="com.asu.duck.ToyDuck"/>
+<fullyQualifiedTypeName name="com.asu.duck.Duck"/>
+<fullyQualifiedTypeName name="com.asu.duck.fly.DoNotFly"/>
+<fullyQualifiedTypeName name="com.asu.duck.ModelDuck"/>
+<fullyQualifiedTypeName name="com.asu.duck.fly.FlyBehaviour"/>
+<fullyQualifiedTypeName name="com.asu.duck.fly.FlyRocketPower"/>
+<fullyQualifiedTypeName name="com.asu.duck.quack.QuackBehavior"/>
+<fullyQualifiedTypeName name="com.asu.duck.quack.Quack"/>
+<fullyQualifiedTypeName name="com.asu.duckcall.DuckCall"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="LinkList"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="FancyNumber"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="BinarySearchTree"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="Stack1"/>
+<fullyQualifiedTypeName name="Stack"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="StackList"/>
+<fullyQualifiedTypeName name="Motorcycle"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>
